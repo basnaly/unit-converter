@@ -4,9 +4,8 @@ import Box from "@mui/material/Box";
 import Tab from "@mui/material/Tab";
 import TabContext from "@mui/lab/TabContext";
 import TabList from "@mui/lab/TabList";
-import { TextFieldInput } from "./TextFieldInput";
-import { UnitsSelector } from "./UnitsSelector";
 import CalcUnitConverter from "./CalcUnitConverter";
+import { TabContentStyled } from "../styles/MuiStyles";
 
 export const UnitsTabs = () => {
 	
@@ -31,9 +30,9 @@ export const UnitsTabs = () => {
 				</Box>
 			</TabContext>
 
-			<div className="d-flex align-items-center justify-content-center m-4">
+			<TabContentStyled className="d-flex justify-content-center p-4 h-100">
 				<CalcUnitConverter selectedTab={selectedTab}/>
-			</div>
+			</TabContentStyled>
 		</React.Fragment>
 	);
 };

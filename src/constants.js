@@ -14,9 +14,15 @@ export const MASS_FROM_KILOGRAM = {
     'Ounce': 35.274
 }
 
-// export const MASS_TO_KILOGRAM = {
-//     'Kilogram': 1,
-//     'Gram': 0.001,
-//     'Pound': 0.453592, 
-//     'Ounce': 0.0283495
-// }
+export const LENGTH_FROM_METER = {
+    'Kilometre': 0.001,
+    'Meter': 1,
+    'Centimeter': 100, 
+    'Millimeter': 1000, 
+    'Mile': 0.000621371, 
+    'Yard': 1.09361, 
+    'Foot': 3.28084, 
+    'Inch': 39.3701,
+}
+
+
